@@ -1,4 +1,4 @@
-battery_test.py
+#battery_test.py
 
 
 import time
@@ -18,13 +18,13 @@ wb.save('/home/pi/Documents/Battery_Test.xlsx')
 
 
 
-bootup.sh
+#bootup.sh
 /usr/bin/python home/pi/Python_Code/battery_test.py
 
 
 
 
-autostart
+#autostart
 @lxpanel --profile LXDE-pi
 @pcmanfm --desktop --profile LXDE-pi
 @xscreensaver -no-splash
